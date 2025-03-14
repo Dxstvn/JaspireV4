@@ -30,6 +30,12 @@
           <string>com.anonymous.JaspireV4</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.960491714548-p8l3ijmno9ao9p53rroua57o6j1vur39</string>
+        </array>
+      </dict>
     </array>
     <key>CFBundleVersion</key>
     <string>1</string>

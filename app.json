@@ -14,17 +14,32 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.JaspireV4"
+      "bundleIdentifier": "com.anonymous.JaspireV4",
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.JaspireV4"
+      "package": "com.anonymous.JaspireV4",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.960491714548-p8l3ijmno9ao9p53rroua57o6j1vur39"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "32df982f-4a36-4e28-ab8d-a2e150fa058a"
+      }
     }
   }
 }
